@@ -58,30 +58,4 @@ header h1 {
     font-size: 3vw; /* Adjusted for readability */
 }
 
-@media (max-width: 450px) {
-    body {
-        flex-direction: column;
-        padding: 20px;
-    }
-    
-    .container {
-        width: 95%; /* Full width for smaller devices */
-        padding: 15px;
-    }
-    
-    header h1 {
-        font-size: 20px;
-    }
-    
-    #countdown-timer {
-        width: 90%; /* Slightly wider for more space */
-    }
-    
-    .time-unit p {
-        font-size: 4vw; /* Further responsive for very small screens */
-    }
-    
-    #days, #hours, #minutes, #seconds {
-        font-size: 4vw;
-    }
-}
+
