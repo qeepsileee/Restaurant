@@ -11,6 +11,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
+    display: flex;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
@@ -31,7 +33,7 @@ header h1 {
 }
 
 .details p {
-    font-size: 16px; /* Reduced to fit comfortably on mobile */
+    font-size: 5vw; /* Reduced to fit comfortably on mobile */
     margin-bottom: 15px;
 }
 
@@ -43,24 +45,23 @@ header h1 {
 }
 
 .time-unit {
-    font-size: 16px; /* Slightly smaller font */
+    font-size: 50px; /* Slightly smaller font */
 }
 
 .time-unit p {
     margin-top: 5px;
-    font-size: 2vw; /* Responsive font size */
+    font-size: 3vw; /* Responsive font size */
     color: #fff;
 }
 
 #days, #hours, #minutes, #seconds {
-    font-size: 2vw; /* Adjusted for readability */
+    font-size: 3vw; /* Adjusted for readability */
 }
 
 @media (max-width: 450px) {
     body {
         flex-direction: column;
         padding: 20px;
-        height: auto; /* Adjusted height to prevent cropping */
     }
     
     .container {
@@ -69,7 +70,7 @@ header h1 {
     }
     
     header h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     
     #countdown-timer {
@@ -77,10 +78,10 @@ header h1 {
     }
     
     .time-unit p {
-        font-size: 6vw; /* Further responsive for very small screens */
+        font-size: 4vw; /* Further responsive for very small screens */
     }
     
     #days, #hours, #minutes, #seconds {
-        font-size: 6vw;
+        font-size: 4vw;
     }
 }
