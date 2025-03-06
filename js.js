@@ -1,4 +1,4 @@
-const eventDate = new Date('2024-10-26T14:10:00'); // Задайте нужную дату и время
+const eventDate = new Date('2025-03-07T17:30:00'); // Задайте нужную дату и время
 
         // Функция для обновления таймера
         function updateCountdown() {
